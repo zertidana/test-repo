@@ -1,0 +1,9 @@
+on:
+  push:
+jobs:
+  talk:
+    runs_on: ubuntu_latest
+    steps:
+      - name: run_command
+        run: echo "Hello!"
+      
